@@ -1,10 +1,14 @@
-body{
-    background-image: url(imgs/Abe\ Lincoln\ Gif.gif);
+.home {
+    background-image: url('imgs/Abe\ Lincoln\ Gif.gif');
     background-repeat: no-repeat;
     width: 100%;
     /* background-position: center; */
   background-size: cover;
   overflow: hidden;
+}
+
+body.earlylife-education {
+  background-color: beige;
 }
 
 h1{
