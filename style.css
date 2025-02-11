@@ -8,7 +8,23 @@
 }
 
 body.earlylife-education {
-  background-color: beige;
+  background-color: black;
+  color: white;
+}
+
+body.multimedia-citations {
+  background-color: black;
+  color: white;
+}
+
+body.politicalalignment-elections {
+  background-color: black;
+  color: white;
+}
+
+body.presidency {
+  background-color: black;
+  color: white;
 }
 
 h1{
@@ -19,4 +35,83 @@ color: white;
 font-size: 200px;
 text-align: center;
 padding-top: 400px;
+}
+
+h2 {
+  font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+  text-align: center;
+  padding-top: 45px;
+  font-size: 100px;
+  animation: fadeIn 3s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+a {
+  padding-left: 25px;
+  font-size: 35px;
+  font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  font-size: 22px;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Start of Timeline */
+
+ .timeline-wrapper {
+  overflow-x: auto;  
+  padding-bottom: 20px; 
+  padding-top: 50px; 
+}
+
+.timeline {
+  display: flex; 
+  flex-wrap: nowrap;  
+  align-items: flex-start;
+}
+
+.timeline-item {
+  flex: 0 0 auto;  
+  width: 300px;  
+  margin-right: 40px;
+  background-color: #f1f1f1; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.timeline-item .timeline-content h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline-item .timeline-content p {
+  font-size: 16px;
+  color: #555;
 }
