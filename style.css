@@ -21,6 +21,7 @@ body.multimedia-citations {
 body.politicalalignment-elections {
   background-color: black;
   color: white;
+
 }
 
 body.presidency {
@@ -69,10 +70,11 @@ font-style: normal;
   padding-top: 45px;
   font-size: 100px;
   animation: fadeIn 3s ease-out;
+  padding-bottom: 90px;
 }
 
 h5{
-  font-size: 15px;
+  font-size: 10px;
 }
 
 p{
@@ -250,4 +252,29 @@ font-style: normal;
 }
  
 }
+
+.btn-primary{
+  background-color: #aaa;
+  border-color: #aaa;
+  color: black;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-family: "embury-text", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.btn-primary:hover{
+  background-color:rgb(39, 39, 39);
+  border-color: black;
+  color: #aaa;
+  transform: scale(1.1);
+}
+
+.content-container {
+  padding-left: 70px;;
+  padding-right: 70px; 
+}
+
+
+
 
