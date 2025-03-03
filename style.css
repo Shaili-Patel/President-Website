@@ -166,6 +166,7 @@ font-style: normal;
 
 .card {
   background-color: rgba(255, 255, 255, 0.281); /* White with 80% opacity */
+  margin: 50px;
 }
 
 /* Optional: If you want to apply it to just the body or certain parts */
